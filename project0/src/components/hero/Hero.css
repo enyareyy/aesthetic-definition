@@ -1,0 +1,26 @@
+.line {
+    border: none;
+    height: 5px;
+    background: white;
+    margin: 0;
+}
+
+.background {
+    background-image: url('../../assets/bg-image.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 385px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1{
+    width: 841px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}

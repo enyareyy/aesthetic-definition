@@ -1,0 +1,66 @@
+.info{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-img{
+    width: 194px;
+    height: 35px;
+}
+.info p{
+    font-size: 12px;
+    width: 294px;
+    height: 35px;
+    color: #000000;
+    padding-left: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    padding-top: 15px;
+    margin-top: 40px;
+    width: 455px;
+    height: 209px;
+    border: 5px solid #EBEBEB;
+}
+.title{
+    width: 400px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card p{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+.send{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.card:hover{
+    background-color: #FFCC01;
+    border: none;
+    border: 5px solid #FFCC01;
+}
+.card:hover h2{
+    color: white;
+}
+.card:hover img {
+    content: url('../../assets/send-hover.png'); 
+}
+

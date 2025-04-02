@@ -1,0 +1,27 @@
+.header{
+    background-color: #D3AC09;
+    height: 117px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.img{
+    width: 88px;
+    margin-top: 5px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}

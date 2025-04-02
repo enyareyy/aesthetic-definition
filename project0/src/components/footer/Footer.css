@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 284px;
+    background-color: #FFCC01;
+}
+.soc-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.soc-media img{
+    margin-right: 15px;
+    width: 72px;
+    height: 71px;
+}
+.footer p{
+    margin-left: 180px;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
