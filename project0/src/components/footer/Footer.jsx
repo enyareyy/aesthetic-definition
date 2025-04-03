@@ -10,12 +10,21 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="soc-media">
-            <img src={FaceBook} alt="" />
-            <img src={Twitter} alt="" />
-            <img src={Google} alt="" />
-            <img src={Foo} alt="" />
-            <img src={BE} alt="" />
-            
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src={FaceBook} alt="Facebook" />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src={Twitter} alt="Twitter" />
+          </a>
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+            <img src={Google} alt="Google" />
+          </a>
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+            <img src={Foo} alt="Foo" />
+          </a>
+          <a href="https://behance.net" target="_blank" rel="noopener noreferrer">
+            <img src={BE} alt="Behance" />
+          </a>            
         </div>
         <p>
         @2014 AESTHETIC THEME.ALL RIGHTS RESERVED

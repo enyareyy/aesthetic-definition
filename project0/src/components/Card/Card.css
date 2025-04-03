@@ -1,3 +1,7 @@
+.cards-block{
+    width: 80%;
+    margin: 0 auto;
+}
 .info{
     margin-top: 50px;
     display: flex;
